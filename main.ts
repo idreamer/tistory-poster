@@ -114,6 +114,17 @@ class TagModal extends Modal {
 }
 
 class TistoryPosterSetting extends PluginSettingTab {
+	plugin: TistoryPosterPlugin;
+
+	constructor(app: App, plugin: TistoryPosterPlugin) {
+		super(app, plugin);
+		this.plugin = plugin;
+	}
+
+	display(): void {
+		const { containerEl } = this;
+
+		containerEl.empty();
 		containerEl.createEl("h2", { text: "Blog" });
 
 		new Setting(containerEl)
