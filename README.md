@@ -17,7 +17,7 @@ So this plugin does not include a feature to authorize and get an access token.
 
 # Versions
 
-v0.0.1
+v0.0.2
 Initial Release.
 
 -   Post a note to Tistory blog

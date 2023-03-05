@@ -1,8 +1,8 @@
 {
 	"id": "obsidian-tistory-plugin",
 	"name": "Tistory Poster",
-	"version": "0.0.1",
-	"minAppVersion": "0.0.1",
+	"version": "0.0.2",
+	"minAppVersion": "0.0.2",
 	"description": "This plugin posts a note in Obsidian to Tistory blogging platform",
 	"author": "Obsidian",
 	"authorUrl": "https://github.com/idreamer",
