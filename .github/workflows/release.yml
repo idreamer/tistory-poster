@@ -6,7 +6,7 @@ on:
             - "*"
 
 env:
-    PLUGIN_NAME: obsidian-tistory-plugin
+    PLUGIN_NAME: tistory-poster
 
 jobs:
     build:
