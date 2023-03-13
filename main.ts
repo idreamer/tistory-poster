@@ -9,8 +9,6 @@ import {
 	Setting,
 } from "obsidian";
 
-// Remember to rename these classes and interfaces!
-
 interface TistoryPosterPluginSettings {
 	accessToken: string;
 	blogName: string;
