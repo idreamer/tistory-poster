@@ -7,6 +7,7 @@ import {
 	Plugin,
 	PluginSettingTab,
 	Setting,
+	requestUrl,
 } from "obsidian";
 
 interface TistoryPosterPluginSettings {
@@ -175,7 +176,8 @@ async function postToTistory({
 	const url = `https://www.tistory.com/apis/post/write?${queries}`;
 
 	try {
-		await fetch(url, {
+		await requestUrl({
+			url,
 			method: "POST",
 		});
 	} catch (err) {
